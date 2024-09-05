@@ -12,7 +12,7 @@ while (adicionar) {
         case "Frutas": frutas.push(produto); break;
         case "Laticinios": laticinios.push(produto); break;
         case "Congelados": congelados.push(produto); break;
-        case "Doces": frutas.push(doces); break;
+        case "Doces": doces.push(doces); break;
         }
     adicionarProduto();
 }
@@ -26,5 +26,4 @@ Doces: ${doces}`);
 function adicionarProduto() {
     let respostaAdicionar = prompt("Deseja adicionar alguma comida na sua lista de compras? [Sim ou Não]");
     adicionar = respostaAdicionar === "Sim";
-    console.log(adicionar);
 }
